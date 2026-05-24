@@ -12,7 +12,6 @@ Usage:
     python github-analytics.py <owner>/<repo> --json
 
 Support: https://github.com/yourusername/github-analytics
-BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9
 """
 
 import sys
@@ -93,7 +92,6 @@ def display_stats(stats):
     if stats.get('description'):
         print(f"  Description: {stats['description']}")
     
-    print(f"\n  💰 BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9")
     print(f"  📦 Source: https://github.com/yourusername/github-analytics\n")
 
 
